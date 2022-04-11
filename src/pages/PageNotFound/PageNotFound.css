@@ -1,0 +1,26 @@
+.not_found-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not_found-header {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.to_home-btn {
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: rgb(116, 54, 163);
+  transition: all 0.3s ease-in-out;
+}
+
+.to_home-btn:hover {
+  opacity: 0.7;
+}
